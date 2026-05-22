@@ -1,16 +1,16 @@
-{
-  "Name": "HTB AI CoE 2026 - ASIA (Korean)",
-  "Language": "Korean",
-  "Files": [
-    {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/korean/overview.md",
-      "FileName": "overview.md",
-      "Order": 1
-    },
-    {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/korean/getting-started.md",
-      "FileName": "getting-started.md",
-      "Order": 2
-    }
-  ]
-}
+[
+  {
+    "Name": "asia_ai_coe_2026",
+    "Language": "Korean",
+    "Files": [
+      {
+        "RawFilePath": "https:///raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/refs/heads/korean/overview.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https:///raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/refs/heads/korean/getting-started.md",
+        "Order": 2
+      }
+    ]
+  }
+]
