@@ -1,16 +1,16 @@
-{
-  "Name": "HTB AI CoE 2026 - ASIA D365 (Japanese)",
-  "Language": "Japanese",
-  "Files": [
-    {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/japanese/overview-d365.md",
-      "FileName": "overview-d365.md",
-      "Order": 1
-    },
-    {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/japanese/getting-started.md",
-      "FileName": "getting-started.md",
-      "Order": 2
-    }
-  ]
-}
+[
+  {
+    "Name": "asia_ai_coe_2026_d365",
+    "Language": "Japanese",
+    "Files": [
+      {
+        "RawFilePath": "https:///raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/refs/heads/japanese/overview-d365.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https:///raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/refs/heads/japanese/getting-started.md",
+        "Order": 2
+      }
+    ]
+  }
+]
