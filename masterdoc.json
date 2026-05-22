@@ -1,6 +1,6 @@
 {
   "Name": "HTB AI CoE 2026 - ASIA (Korean)",
-  "Language": "ko",
+  "Language": "korean",
   "Files": [
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/korean/overview.md",
