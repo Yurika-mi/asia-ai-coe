@@ -1,14 +1,14 @@
 {
-  "Name": "HTB AI CoE 2026 - ASIA",
-  "Language": "en",
+  "Name": "HTB AI CoE 2026 - ASIA (Japanese)",
+  "Language": "ja",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/main/overview.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/japanese/overview.md",
       "FileName": "overview.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/main/getting-started.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/japanese/getting-started.md",
       "FileName": "getting-started.md",
       "Order": 2
     }
