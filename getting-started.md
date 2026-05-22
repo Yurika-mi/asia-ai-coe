@@ -1,64 +1,62 @@
-# Getting Started with the Sandbox
+# 샌드박스 시작하기
 
-## Login to Azure Portal
+## Azure Portal에 로그인
 
-1. Navigate to [Azure Portal](https://portal.azure.com) using a new browser tab.
+1. 새 브라우저 탭을 사용하여 [Azure Portal](https://portal.azure.com)로 이동합니다.
    
-1. On **Sign into Microsoft Azure** tab you will see the login screen, in that enter the following email/username and then click on **Next**. 
+1. **[Microsoft Azure에 로그인]** 탭에서 로그인 화면이 표시됩니다. 아래 이메일/사용자 이름을 입력한 후 **[다음]** 을 클릭합니다.
 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   * 이메일/사용자 이름: <inject key="AzureAdUserEmail"></inject>
    
      ![](media/image7.png "Enter Email")
 
-     > **Note:** If you get a **Download Microsoft Edge mobile app** popup, then click on **Do not show** dropdown and select **Don't show this recommendation again**. 
+     > **참고:** **[Microsoft Edge 모바일 앱 다운로드]** 팝업이 표시되면 **[표시 안 함]** 드롭다운을 클릭하고 **[이 권장 사항을 다시 표시하지 않음]** 을 선택합니다.
      
-1. Now enter the following password and click on **Sign in**.
+1. 아래 비밀번호를 입력하고 **[로그인]** 을 클릭합니다.
 
-   * Password: <inject key="AzureAdUserPassword"></inject>
+   * 비밀번호: <inject key="AzureAdUserPassword"></inject>
    
      ![](media/Sign-in-page.png "Enter Password")
   
-1. If you see the pop-up **Stay Signed in?**, click No
+1. **[로그인 상태를 유지하시겠습니까?]** 팝업이 표시되면 **[아니오]** 를 클릭합니다.
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+1. **[무료 Azure Advisor 권장 사항이 있습니다!]** 팝업이 표시되면 창을 닫고 랩을 계속 진행합니다.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+1. **[Microsoft Azure 시작]** 팝업 창이 표시되면 **[나중에]** 를 클릭하여 둘러보기를 건너뜁니다.
 
-## Login to GitHub
+## GitHub에 로그인
 
-1. Please open a browser on your laptop, preferably an InPrivate/Incognito window and follow the steps below to activate your GitHub account. 
+1. 브라우저를 열고 (InPrivate/시크릿 창 권장) 아래 단계에 따라 GitHub 계정을 활성화합니다.
 
-1. Navigate to the given URL to accept the invite.
+1. 아래 URL로 이동하여 초대를 수락합니다.
 
    - **InviteRedirectURL:** `https://myapplications.microsoft.com/?tenantid=f871d17e-efcd-44c7-ba5a-0162efa2fded`
 
-1. You'll see the **Sign in** tab. Here, enter your credentials:
+1. **[로그인]** 탭이 표시됩니다. 아래 자격 증명을 입력합니다.
  
-   - **Email/Username:** **<inject key="AzureAdUserEmail"></inject>**
+   - **이메일/사용자 이름:** **<inject key="AzureAdUserEmail"></inject>**
  
        ![Enter Your Username](./media3/login1.png)
 
-1. Next, provide your password to login:
+1. 다음으로 비밀번호를 입력하여 로그인합니다.
  
-   - **Password:** **<inject key="AzureAdUserPassword"></inject>**
+   - **비밀번호:** **<inject key="AzureAdUserPassword"></inject>**
  
       ![Enter Your Password](./media3/login2.png)
 
-1. In the next pane, click on **Accept** to accept the invitation.
+1. 다음 창에서 **[수락]** 을 클릭하여 초대를 승인합니다.
 
-    ![](./media3/gs2.png)
+1. **[로그인 상태를 유지하시겠습니까?]** 팝업이 표시되면 **[아니오]** 를 클릭합니다.
 
-1. If you see the pop-up **Stay Signed in?**, click No
-
-1. Once done you can close this browser tab, navigate to GitHub login page in a new browser tab using the provided URL below:
+1. 완료되면 이 브라우저 탭을 닫고 아래 URL을 사용하여 새 브라우저 탭에서 GitHub 로그인 페이지로 이동합니다.
 
    ```
    https://github.com/login
    ```
 
-1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as the username provided, then click on **Sign in with your identity provider** to continue **(2)**.
+1. **[GitHub에 로그인]** 탭에서 로그인 화면이 표시됩니다. 제공된 GitHub 사용자 이름을 입력한 후 **[ID 공급자로 로그인]** 을 클릭하여 계속 진행합니다 **(2)**.
 
-   - GitHub User: 
+   - GitHub 사용자: 
 
     ```
     odl-user-<inject key="Deployment ID" enableCopy="false"/>_clabs
@@ -66,19 +64,17 @@
 
     ![](./media3/github-logina.png)
 
-1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
+1. **[CloudLabs Organizations 싱글 사인온]** 페이지에서 **[계속]** 을 클릭합니다.
 
    ![](./media3/github-loginb.png)
 
-1. If it ask for login, please login using your useremail and password, provided with the environmnet: 
+1. 로그인을 요청받으면 환경에서 제공된 이메일 및 비밀번호로 로그인합니다.
 
-   - **Email/Username:** **<inject key="AzureAdUserEmail"></inject>**
+   - **이메일/사용자 이름:** **<inject key="AzureAdUserEmail"></inject>**
 
-   - **Password:** **<inject key="AzureAdUserPassword"></inject>**
+   - **비밀번호:** **<inject key="AzureAdUserPassword"></inject>**
 
-1. You are successfully logged in to GitHub.
-
-
-All the best! now, you are all set to start!.
+1. GitHub 로그인이 완료되었습니다.
 
 
+수고하셨습니다! 이제 시작할 준비가 되었습니다!

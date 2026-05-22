@@ -1,63 +1,53 @@
 # ASIA - AI CoE 2026
 
-Using this environment, you can explore the full range of capabilities and services, including Copilot Studio, Copilot for M365 and Dynamic 365 Suite. A detailed overview of the sandbox environment is provided below.
+이 환경에서는 Copilot Studio, Copilot for M365 및 Dynamics 365 Suite를 포함한 다양한 기능과 서비스를 살펴볼 수 있습니다. 샌드박스 환경에 대한 자세한 개요는 아래에서 확인할 수 있습니다.
 
-## About the Sandbox Environment
+## 샌드박스 환경 정보
 
-   | Resources | Value | Remarks |
+   | 리소스 | 값 | 비고 |
    | --- | --- | --- |
-   | Enabled Services | `Microsoft Fabric` <br> `Other Azure Services` | You will have access to a dedicated, Owner role permissions on the subscription to explore any desired resources |
-   | Azure Entra ID User | Pre-created Entra ID user account | You will get one Entra ID User Account. |
-   | Azure Subscription Permissions | **Owner** privilege over Azure Subscription | You will get owner access to the Azure subscription. |
-   | Azure Credit | **$250 USD**| Consumption limit is set on Azure spend to 250 USD per group. |
-   | Licenses Assigned | `Microsoft Copilot Business` <br> `Office 365 apps` <br> `Power Apps Premium` <br> `GitHub Copilot` <br> `Microsoft Copilot Studio User License` <br> `Dynamics 365 Finance` <br> `Dynamics 365 Supply Chain Management` <br> `Dynamics 365 Project Operations` <br> `Dynamics 365 Sales Enterprise Edition` <br> `Dynamics 365 Human Resources` <br> `Dynamics 365 Field Service` <br> `Dynamics 365 Business Central Essentials` <br> `Dynamics 365 Customer Service Enterprise` | You will be assigned the following licenses to work with. |
-   | Credit Alerts | Credit Alerts are set on consumption of 25%, 50%, 75%, 85%, 90%, 95% and 100% of total Azure credits. |Make sure to check your registered email's inbox for any alert-related mails. Alerts give you a head start to keep your Azure spending in control and to plan out the remaining credits in the best way possible. |
-   | Sandbox Duration | 30 Days/720 Hours or until Azure Consumption Credits are exhausted.  | The sandbox environment will be deleted automatically after 30 Days/720 Hours or once the Azure credits are exhausted, whichever comes first. |
+   | 활성화된 서비스 | `Microsoft Fabric` <br> `기타 Azure 서비스` | 구독에 대한 Owner 역할 권한으로 원하는 리소스를 자유롭게 탐색할 수 있습니다 |
+   | Azure Entra ID 사용자 | 사전 생성된 Entra ID 사용자 계정 | Entra ID 사용자 계정 1개가 제공됩니다. |
+   | Azure 구독 권한 | Azure 구독에 대한 **Owner** 권한 | Azure 구독에 대한 소유자 액세스가 제공됩니다. |
+   | Azure 크레딧 | **$250 USD** | 그룹당 Azure 사용 한도는 250 USD로 설정됩니다. |
+   | 할당된 라이선스 | `Microsoft Copilot Business` <br> `Office 365 apps` <br> `Power Apps Premium` <br> `GitHub Copilot` <br> `Microsoft Copilot Studio User License` <br> `Dynamics 365 Finance` <br> `Dynamics 365 Supply Chain Management` <br> `Dynamics 365 Project Operations` <br> `Dynamics 365 Sales Enterprise Edition` <br> `Dynamics 365 Human Resources` <br> `Dynamics 365 Field Service` <br> `Dynamics 365 Business Central Essentials` <br> `Dynamics 365 Customer Service Enterprise` | 다음 라이선스가 할당되어 사용 가능합니다. |
+   | 크레딧 알림 | Azure 크레딧 사용량이 전체의 25%, 50%, 75%, 85%, 90%, 95%, 100%에 도달하면 크레딧 알림이 발송됩니다. | 알림 관련 메일이 수신되었는지 등록된 이메일 받은 편지함을 확인하세요. 알림을 통해 Azure 사용량을 미리 파악하고 남은 크레딧을 최적으로 활용할 수 있습니다. |
+   | 샌드박스 기간 | 30일/720시간 또는 Azure 소비 크레딧 소진 시 중 더 빠른 시점 | 샌드박스 환경은 30일/720시간 경과 후 또는 Azure 크레딧이 소진된 시점 중 더 빠른 시점에 자동으로 삭제됩니다. |
 
-## Notes:
-* The Azure credit consumption includes all the resources which you will be deploying while using the sandbox environment for your hackathon use case.
-* You will have owner access on the Azure subscription, you can freely explore the features of required services and are recommended to use it only for learning purposes.
-* Each sandbox environment has a fixed budget cap of USD 250. Please refrain from deploying any resources outside of the sandbox scope, as they may consume the allocated Azure credits and result in the automatic deallocation of the environment once the credit limit is reached.
+## 참고 사항:
+* Azure 크레딧 사용량에는 샌드박스 환경에서 해커톤 사용 사례를 위해 배포하는 모든 리소스가 포함됩니다.
+* Azure 구독에 대한 소유자 액세스가 제공됩니다. 필요한 서비스의 기능을 자유롭게 탐색할 수 있으며, 학습 목적으로만 사용하는 것을 권장합니다.
+* 각 샌드박스 환경에는 USD 250의 고정 예산 한도가 있습니다. 샌드박스 범위 외부에 리소스를 배포하지 마십시오. 해당 리소스가 할당된 Azure 크레딧을 소비하여 크레딧 한도에 도달하면 환경이 자동으로 삭제될 수 있습니다.
 
-## Microsoft Fabric Cost Optimization
+## Microsoft Fabric 비용 최적화
 
-While deploying Microsoft Fabric capacity, use F2 capacity, as it is sufficient for most workloads and helps optimize costs while efficiently utilizing the assigned Azure credits.
+Microsoft Fabric 용량을 배포할 때는 F2 용량을 사용하세요. 대부분의 워크로드에 충분하며, 할당된 Azure 크레딧을 효율적으로 활용하면서 비용을 최적화할 수 있습니다.
 
-## Azure OpenAI Cost Optimization:
-Azure OpenAI service provides two types of deployment SKUs: Standard and PTU-based deployment. The PTU-based model, although powerful, can be quite costly, with a price of **$2 per hour**. Deploying this model would result in a daily cost of **$48**, which may not be a cost-effective option to consider. Additionally, deploying the PTU-based model would quickly exhaust credits within 2-3 days, leading to the automatic deletion of the environment. Therefore, we recommend opting for the **Standard (On-Demand)** Pricing model instead, which offers a more affordable and sustainable deployment strategy.
+## Azure OpenAI 비용 최적화:
+Azure OpenAI 서비스는 Standard와 PTU 기반 배포의 두 가지 배포 SKU를 제공합니다. PTU 기반 모델은 강력하지만 **시간당 $2**로 매우 비용이 높습니다. 이 모델을 배포하면 일일 비용이 **$48**에 달해 비용 효율적이지 않습니다. 또한 PTU 기반 모델을 배포하면 2~3일 내에 크레딧이 소진되어 환경이 자동으로 삭제될 수 있습니다. 따라서 보다 저렴하고 지속 가능한 배포 전략인 **Standard (온디맨드)** 가격 모델을 선택하는 것을 권장합니다.
 
-## Cost Monitoring:
-To monitor and analyse your Azure credit spend, you can navigate to the Azure Subscription page by following the steps mentioned below.
-+ From the Azure portal home page, search for **Subscriptions (1)** using the search bar and select the same from the suggestions.
+## 비용 모니터링:
+Azure 크레딧 사용량을 모니터링하고 분석하려면 아래 단계에 따라 Azure 구독 페이지로 이동합니다.
++ Azure 포털 홈 페이지에서 검색 창을 사용하여 **구독 (1)** 을 검색하고 결과에서 선택합니다.
   
   ![](media/cost1.png "cost analysis")
   
-+ Select the Cost Analysis tab from the Cost Management pane. You can access a comprehensive breakdown of your Azure spending, offering a granular view of costs associated with various services, and resources.
++ 비용 관리 창에서 비용 분석 탭을 선택합니다. 다양한 서비스 및 리소스와 관련된 비용을 세부적으로 확인할 수 있는 Azure 지출 종합 내역에 액세스할 수 있습니다.
 
   ![](media/cost2.png "cost analysis")
 
-+ To get the accurate consumed cost by you, select the **Calendar (2)** from **Cost analysis (1)**  then **Custom date Range (3)**.
 
-  ![](media/cost3.png "cost analysis")
 
-+ Now, select the custom dates.
-    + **Start Date: (1)** The date when you redeemed voucher and launch the Sandbox environment.
-    + **End Date: (2)** Current or future date. If you select the future date, you can also get the forecasted cost based on the current resources you deployed.
-    + You can see the **ACTUAL COST (USD) (4)** and the **FORECAST: CHART VIEW ON (5)** cost.
+## 모범 사례:
++ **리소스 사용:** 가상 머신, WebApp, Azure Kubernetes Service, Azure Container Instance 및 기타 리소스를 사용하지 않을 때는 중지하여 Azure 비용을 최소화하세요.
++ **Azure 비용 분석:** 할당된 Azure 구독의 비용 분석 보고서를 정기적으로 확인하여 환경을 장기간 지속 가능한 상태로 유지하세요.
++ **알림 설정:** 알림 관련 메일이 수신되었는지 등록된 이메일 받은 편지함을 확인하세요. 알림을 통해 Azure 사용량을 미리 파악하고 남은 크레딧을 최적으로 활용할 수 있습니다.
 
-  ![](media/cost4.png "cost analysis")
+## CloudLabs 지원 연락처:
+샌드박스 환경 사용 중 어려움이 발생하거나 권한 또는 Azure 소비 관련 문의 사항이 있으면 지원 팀에 문의하세요.
 
-## Best Practices:
-+ **Resources usage:** Please stop the virtual machines, WebApps, Azure Kubernetes service, Azure Container Instance and other resources when not in use to minimize the Azure spend.
-+ **Azure Cost Analysis:** Maintain a practice of regularly checking the Cost Analysis report for the assigned Azure subscription to ensure the sustainability of the environment over an extended period.
-+ **Alert notifications:** Make sure to check your registered email's inbox for any alert-related emails. Alerts give you can head start to keep your Azure spending in control and to plan out the remaining credits in the best way possible.
+* 샌드박스 사용자 이메일 지원: cloudlabs-support@spektrasystems.com
+* 샌드박스 사용자 라이브 채팅 지원: https://cloudlabs.ai/ms-support
 
-## CloudLabs Support Contacts:
-You can reach out to the support team in case you face any difficulty in using the sandbox environment, any permission, or Azure consumption-related queries.
-
-* Sandbox user Email Support:  cloudlabs-support@spektrasystems.com
-* Sandbox user Live Chat Support: https://cloudlabs.ai/ms-support
-
-When you contact support, please provide the following information:
-+  "I am a participant user of **ASIA - AI CoE 2026**, my registered email address is `email@contoso.com`, followed by your query/issue."
-
+지원 문의 시 다음 정보를 제공해 주세요:
++ "저는 **ASIA - AI CoE 2026** 의 참가자입니다. 제 등록 이메일 주소는 `email@contoso.com` 입니다."에 이어 질문/문제를 작성해 주세요.
