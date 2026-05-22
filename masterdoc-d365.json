@@ -1,0 +1,16 @@
+{
+  "Name": "HTB AI CoE 2026 - ASIA (D365)",
+  "Language": "en",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/main/overview-d365.md",
+      "FileName": "overview-d365.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/main/getting-started.md",
+      "FileName": "getting-started.md",
+      "Order": 2
+    }
+  ]
+}
