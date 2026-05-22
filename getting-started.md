@@ -1,64 +1,62 @@
-# Getting Started with the Sandbox
+# 开始使用沙盒环境
 
-## Login to Azure Portal
+## 登录 Azure 门户
 
-1. Navigate to [Azure Portal](https://portal.azure.com) using a new browser tab.
+1. 使用新的浏览器标签页导航到 [Azure 门户](https://portal.azure.com)。
    
-1. On **Sign into Microsoft Azure** tab you will see the login screen, in that enter the following email/username and then click on **Next**. 
+1. 在 **[登录 Microsoft Azure]** 标签页中，您将看到登录界面。输入以下电子邮件/用户名，然后单击 **[下一步]**。
 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   * 电子邮件/用户名: <inject key="AzureAdUserEmail"></inject>
    
      ![](media/image7.png "Enter Email")
 
-     > **Note:** If you get a **Download Microsoft Edge mobile app** popup, then click on **Do not show** dropdown and select **Don't show this recommendation again**. 
+     > **注意:** 如果出现 **[下载 Microsoft Edge 移动应用]** 弹出窗口，请单击 **[不显示]** 下拉菜单并选择 **[不再显示此建议]**。
      
-1. Now enter the following password and click on **Sign in**.
+1. 输入以下密码，然后单击 **[登录]**。
 
-   * Password: <inject key="AzureAdUserPassword"></inject>
+   * 密码: <inject key="AzureAdUserPassword"></inject>
    
      ![](media/Sign-in-page.png "Enter Password")
   
-1. If you see the pop-up **Stay Signed in?**, click No
+1. 如果出现 **[保持登录状态?]** 弹出窗口，请单击 **[否]**。
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+1. 如果出现 **[您有免费的 Azure Advisor 建议!]** 弹出窗口，请关闭该窗口以继续实验。
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+1. 如果出现 **[欢迎使用 Microsoft Azure]** 弹出窗口，请单击 **[以后再说]** 跳过引导。
 
-## Login to GitHub
+## 登录 GitHub
 
-1. Please open a browser on your laptop, preferably an InPrivate/Incognito window and follow the steps below to activate your GitHub account. 
+1. 请在您的浏览器中打开 InPrivate/隐身窗口，按照以下步骤激活您的 GitHub 账户。
 
-1. Navigate to the given URL to accept the invite.
+1. 导航到以下 URL 以接受邀请。
 
    - **InviteRedirectURL:** `https://myapplications.microsoft.com/?tenantid=f871d17e-efcd-44c7-ba5a-0162efa2fded`
 
-1. You'll see the **Sign in** tab. Here, enter your credentials:
+1. 您将看到 **[登录]** 标签页。在此输入您的凭据：
  
-   - **Email/Username:** **<inject key="AzureAdUserEmail"></inject>**
+   - **电子邮件/用户名:** **<inject key="AzureAdUserEmail"></inject>**
  
        ![Enter Your Username](./media3/login1.png)
 
-1. Next, provide your password to login:
+1. 接下来，输入您的密码以登录：
  
-   - **Password:** **<inject key="AzureAdUserPassword"></inject>**
+   - **密码:** **<inject key="AzureAdUserPassword"></inject>**
  
       ![Enter Your Password](./media3/login2.png)
 
-1. In the next pane, click on **Accept** to accept the invitation.
+1. 在下一个窗口中，单击 **[接受]** 以接受邀请。
 
-    ![](./media3/gs2.png)
+1. 如果出现 **[保持登录状态?]** 弹出窗口，请单击 **[否]**。
 
-1. If you see the pop-up **Stay Signed in?**, click No
-
-1. Once done you can close this browser tab, navigate to GitHub login page in a new browser tab using the provided URL below:
+1. 完成后，关闭此浏览器标签页，使用以下 URL 在新的浏览器标签页中导航到 GitHub 登录页面：
 
    ```
    https://github.com/login
    ```
 
-1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as the username provided, then click on **Sign in with your identity provider** to continue **(2)**.
+1. 在 **[登录 GitHub]** 标签页中，您将看到登录界面。输入提供的 GitHub 用户名，然后单击 **[使用身份提供程序登录]** 以继续 **(2)**。
 
-   - GitHub User: 
+   - GitHub 用户: 
 
     ```
     odl-user-<inject key="Deployment ID" enableCopy="false"/>_clabs
@@ -66,19 +64,17 @@
 
     ![](./media3/github-logina.png)
 
-1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
+1. 在 **[单点登录到 CloudLabs Organizations]** 页面上单击 **[继续]**。
 
    ![](./media3/github-loginb.png)
 
-1. If it ask for login, please login using your useremail and password, provided with the environmnet: 
+1. 如果要求登录，请使用环境提供的电子邮件和密码登录：
 
-   - **Email/Username:** **<inject key="AzureAdUserEmail"></inject>**
+   - **电子邮件/用户名:** **<inject key="AzureAdUserEmail"></inject>**
 
-   - **Password:** **<inject key="AzureAdUserPassword"></inject>**
+   - **密码:** **<inject key="AzureAdUserPassword"></inject>**
 
-1. You are successfully logged in to GitHub.
-
-
-All the best! now, you are all set to start!.
+1. 您已成功登录 GitHub。
 
 
+一切就绪！现在可以开始了！

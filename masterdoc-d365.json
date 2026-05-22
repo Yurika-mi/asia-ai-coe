@@ -1,14 +1,14 @@
 {
-  "Name": "HTB AI CoE 2026 - ASIA (D365)",
-  "Language": "en",
+  "Name": "HTB AI CoE 2026 - ASIA D365 (Simplified Chinese)",
+  "Language": "zh",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/main/overview-d365.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/simplified-chinese/overview-d365.md",
       "FileName": "overview-d365.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/main/getting-started.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/asia-ai-coe/simplified-chinese/getting-started.md",
       "FileName": "getting-started.md",
       "Order": 2
     }
