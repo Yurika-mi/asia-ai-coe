@@ -8,7 +8,7 @@
 
    * メール アドレス/ユーザー名: <inject key="AzureAdUserEmail"></inject>
    
-     ![](media/image7.png "Enter Email")
+     ![](media3/image7-jp.png "Enter Email")
 
      > **注:** **[Microsoft Edge モバイル アプリをダウンロード]** というポップアップが表示された場合は、**[表示しない]** ドロップダウンをクリックし、**[このおすすめを今後表示しない]** を選択してください。
      
@@ -16,7 +16,7 @@
 
    * パスワード: <inject key="AzureAdUserPassword"></inject>
    
-     ![](media/Sign-in-page.png "Enter Password")
+     ![](media3/Sign-in-page-jp.png "Enter Password")
   
 1. **[サインインの状態を維持しますか?]** というポップアップが表示された場合は、**[いいえ]** をクリックします。
 
@@ -30,19 +30,19 @@
 
 1. 以下の URL にアクセスして招待を承認します。
 
-   - **InviteRedirectURL:** `https://myapplications.microsoft.com/?tenantid=f871d17e-efcd-44c7-ba5a-0162efa2fded`
+   - **招待リダイレクト URL:** `https://myapplications.microsoft.com/?tenantid=f871d17e-efcd-44c7-ba5a-0162efa2fded`
 
 1. **[サインイン]** タブが表示されます。以下の資格情報を入力してください。
  
    - **メール アドレス/ユーザー名:** **<inject key="AzureAdUserEmail"></inject>**
  
-       ![Enter Your Username](./media3/login1.png)
+     ![](media3/image7-jp.png "Enter Email")
 
 1. 次に、パスワードを入力してログインします。
  
    - **パスワード:** **<inject key="AzureAdUserPassword"></inject>**
  
-      ![Enter Your Password](./media3/login2.png)
+     ![](media3/Sign-in-page-jp.png "Enter Password")
 
 1. 次のウィンドウで **[承認]** をクリックして招待を承認します。
 
@@ -62,11 +62,11 @@
     odl-user-<inject key="Deployment ID" enableCopy="false"/>_clabs
     ```
 
-    ![](./media3/github-logina.png)
+    ![](./media3/github-logina-jp.png)
 
 1. **[CloudLabs Organizations へのシングル サインオン]** ページで **[続行]** をクリックして次に進みます。
 
-   ![](./media3/github-loginb.png)
+   ![](./media3/github-loginb-jp.png)
 
 1. ログインを求められた場合は、環境で提供されたメール アドレスとパスワードを使用してログインしてください。
 
