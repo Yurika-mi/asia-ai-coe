@@ -8,7 +8,7 @@
    | --- | --- | --- |
    | 有効なサービス | `Microsoft Fabric` <br> `その他の Azure サービス` | サブスクリプションの Owner ロール権限でご利用可能なリソースをご自由にお探しいただけます |
    | Azure Entra ID ユーザー | 事前作成済みの Entra ID ユーザー アカウント | Entra ID ユーザー アカウントが 1 つ提供されます。 |
-   | Azure サブスクリプション権限 | Azure サブスクリプションの **Owner** 権限 | Azure サブスクリプションに対してオーナー アクセスが付与されます。 |
+   | Azure サブスクリプション権限 | Azure サブスクリプションの **所有者** 権限 | Azure サブスクリプションに対して所有者アクセスが付与されます。 |
    | Azure クレジット | **$250 USD** | グループあたりの Azure 使用額の上限は 250 USD に設定されています。 |
    | 割り当て済みライセンス | `Microsoft Copilot Business` <br> `Office 365 apps` <br> `Power Apps Premium` <br> `GitHub Copilot` <br> `Microsoft Copilot Studio User License` <br> `Dynamics 365 Finance` <br> `Dynamics 365 Supply Chain Management` <br> `Dynamics 365 Project Operations` <br> `Dynamics 365 Sales Enterprise Edition` <br> `Dynamics 365 Human Resources` <br> `Dynamics 365 Field Service` <br> `Dynamics 365 Business Central Essentials` <br> `Dynamics 365 Customer Service Enterprise` | 以下のライセンスが割り当てられ、ご利用いただけます。 |
    | クレジット アラート | Azure クレジット消費量が合計の 25%、50%、75%、85%、90%、95%、100% に達した際にクレジット アラートが送信されます。 | アラート関連のメールが届いていないか、登録済みのメール受信トレイをご確認ください。アラートにより、Azure の使用状況を把握し、残りのクレジットを最適に活用するための準備が整います。 |
@@ -30,18 +30,18 @@ Azure OpenAI サービスには、Standard と PTU ベースの 2 種類のデ�
 Azure クレジットの消費状況を監視および分析するには、以下の手順に従って Azure サブスクリプション ページに移動してください。
 + Azure ポータルのホーム ページで、検索バーを使用して **[サブスクリプション] (1)** を検索し、候補から選択します。
   
-  ![](media/cost1.png "cost analysis")
+  ![](media3/cost1-jp.png "cost analysis")
   
 + [コスト管理] ウィンドウから [コスト分析] タブを選択します。さまざまなサービスやリソースに関連するコストを詳細に確認できる Azure 支出の包括的な内訳にアクセスできます。
 
-  ![](media/cost2.png "cost analysis")
+  ![](media3/cost2-jp.png "cost analysis")
 
-+ 正確な消費コストを確認するには、**[コスト分析] (1)** から **[カレンダー] (2)** を選択し、**[カスタム日付範囲] (3)** を選択します。
++ 正確な消費コストを確認するには、**[コスト分析]** から **[カレンダー]** を選択し、**[カスタム日付範囲]** を選択します。
 
 + カスタム日付を選択します。
-    + **開始日: (1)** 引き換えコードを使用してサンドボックス環境を起動した日付。
-    + **終了日: (2)** 現在または将来の日付。将来の日付を選択すると、現在展開しているリソースに基づいた予測コストも確認できます。
-    + **実際のコスト (USD) (4)** と **予測: グラフ表示オン (5)** のコストが表示されます。
+    + **開始日:** 引き換えコードを使用してサンドボックス環境を起動した日付。
+    + **終了日:** 現在または将来の日付。将来の日付を選択すると、現在展開しているリソースに基づいた予測コストも確認できます。
+    + **実際のコスト (USD)** と **予測: グラフ表示オン** のコストが表示されます。
 
 ## ベスト プラクティス:
 + **リソースの使用:** 使用していない仮想マシン、Web Apps、Azure Kubernetes Service、Azure Container Instance などのリソースは停止して、Azure の使用コストを最小限に抑えてください。
